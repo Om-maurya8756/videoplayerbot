@@ -14,4 +14,4 @@ WORKDIR /MusicPlayer
 COPY startup.sh /startup.sh
 RUN chmod +x /startup.sh
 
-CMD ["/bin/bash", "/startup.sh"]
+CMD ["bash", "startup.sh"]
